@@ -9,15 +9,15 @@ package com.socialsdk;
 public class Config {
 
     public static boolean debugMode = true;//调试
-    public final static String WX_APP_ID = "wx65b32431b8a0be08";//微信APPID
-    public final static String WX_SECRET="3439517d98d33292951356fb9934353a";
+    public final static String WX_APP_ID = "";//微信APPID
+    public final static String WX_SECRET="";//微信secret
     public final static String WX_SCOPE= "snsapi_userinfo";//微信授权域
-    public final static String WEIBO_APP_KEY = "2514009253";//微博appkey
+    public final static String WEIBO_APP_KEY = "";//微博appkey
     public final static String WEIBO_REDIRECTR_URL = "https://api.weibo.com/oauth2/default.html";//微博回调地址
     public final static String WEIBO_SCOPE = "email,direct_messages_read,direct_messages_write,"
             + "friendships_groups_read,friendships_groups_write,statuses_to_me_read,"
             + "follow_app_official_microblog," + "invitation_write";//微博授权域
-    public final static String QQ_APP_ID= "1105768566";
+    public final static String QQ_APP_ID= "";//qq APPID
     public final static String QQ_SCOPE = "all";//QQ授权域
 
     public static boolean isDebugMode() {
